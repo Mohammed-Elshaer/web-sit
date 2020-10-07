@@ -38,7 +38,9 @@ nav{
     
 }
 .logo{
-margin-left: 200px;}
+margin-left: 200px;
+margin-top: -15px;
+}
 li a{
     color: #fff !important;
     font-size: 25px;
@@ -47,6 +49,13 @@ li a{
 }
 .fa-facebook{
     color: #3b5998;
+    
+}
+@media (max-width:768px) {
+    .fa-facebook{
+        font-size: 20px;
+    }
+
 }
 /* .fa-facebook:hover{
     color: #3b5998;
